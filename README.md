@@ -8,6 +8,7 @@ A robust testing framework built with Cypress, Cucumber, and TypeScript, providi
 - ✅ **TypeScript Integration** - Strong typing for better code quality and developer experience
 - ✅ **Page Object Model** - Organized, maintainable test structure
 - ✅ **MochaAwesome Reports** - Detailed HTML reports for test results
+- ✅ **Custom Commands** - Reusable Cypress commands for common operations and improved test readability
 
 ## 🔧 Prerequisites
 
