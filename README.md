@@ -1,6 +1,6 @@
 # Cypress Cucumber TypeScript Framework
 
-A robust testing framework built with Cypress, Cucumber, and TypeScript, providing a BDD approach to end-to-end testing for the SauceDemo e-commerce website with strong typing support.
+A robust testing framework built with Cypress, Cucumber, and TypeScript, providing a BDD approach to end-to-end testing for the [SauceDemo](https://www.saucedemo.com) e-commerce website with strong typing support.
 
 ## 📋 Features
 
