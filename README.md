@@ -15,6 +15,10 @@ A robust testing framework built with Cypress, Cucumber, and TypeScript, providi
 - npm (v8.x or higher)
 - Git
 
+## 🎬 Demo
+
+https://github.com/user-attachments/assets/2d53c33c-0b25-457c-9ad7-0673e04ca8ab
+
 ## 🚀 Getting Started
 
 ### Clone the Repository
@@ -113,14 +117,12 @@ This project uses MochaAwesome for generating test reports.
 
 ### Reports Structure
 
-
 ```
 cypress/
 ├── reports/
-│   ├── mocha/             # Individual test run JSON reports
-│   └── mochareports/      # Generated HTML reports
-│       └── report.html    # Final merged HTML report
-
+│   ├── html/              # HTML report output
+│   │   └── index.html     # Main HTML report
+│   └── mocha/             # JSON report files
 ```
 
 ### Generating Reports
