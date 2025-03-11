@@ -1,0 +1,228 @@
+[
+  {
+    "id": "test-run",
+    "uri": "cypress/e2e/features",
+    "name": "Cypress Test Run",
+    "keyword": "Feature",
+    "elements": [
+      {
+        "id": "scenario-0",
+        "name": "auth",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that users can successfully log in with valid credentials"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 2553000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that the system displays an error message with invalid credentials"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1112000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that locked out users cannot access the system"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 858000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that user redirected to products page after successful login"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 908000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that user with no permission can't add items to the cart"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1245000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that user can log out successfully"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 4071000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Login and Logout",
+              "Verify that user can't access any page without login"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 172000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "scenario-1",
+        "name": "cartCheckout",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Shopping cart and Checkout functionality",
+              "Verify that user can add items to the cart"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1885000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Shopping cart and Checkout functionality",
+              "Verify that user can remove items from the cart"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1307000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Shopping cart and Checkout functionality",
+              "Verify that user can checkout successfully"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 2052000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Shopping cart and Checkout functionality",
+              "Verify that user can't checkout without adding items to the cart"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1191000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Shopping cart and Checkout functionality",
+              "Verify that user can't checkout without login"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Edge Cases",
+              "Verify that checkout form requires first name"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1705000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Edge Cases",
+              "Verify that checkout form requires last name"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1812000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "Shopping cart and Checkout process",
+              "Edge Cases",
+              "Verify that checkout form requires zip code"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 1663000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "scenario-2",
+        "name": "stateManagement",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "keyword": "Step",
+            "name": [
+              "State Management",
+              "Cart State Management",
+              "Verify that cart remembers items when refreshing the page"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 2250000000
+            }
+          },
+          {
+            "keyword": "Step",
+            "name": [
+              "State Management",
+              "Cart State Management",
+              "Verify cart empties after order completes"
+            ],
+            "result": {
+              "status": "passed",
+              "duration": 2263000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

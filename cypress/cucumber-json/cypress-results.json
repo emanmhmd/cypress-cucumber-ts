@@ -1,0 +1,518 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "130.0.6723.137",
+  "config": {
+    "configFile": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress.config.ts",
+    "env": {
+      "__cypress_cucumber_preprocessor_dont_use_this_suite": {
+        "isEventHandlersAttached": true
+      }
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "testingType": "e2e",
+    "specPattern": "cypress/e2e/features/**/*.feature",
+    "video": true,
+    "videoCompression": 32,
+    "videosFolder": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\videos",
+    "supportFile": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\support\\e2e.ts",
+    "baseUrl": "https://www.saucedemo.com/",
+    "projectRoot": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts",
+    "projectName": "cypress-cucumber-ts",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultBrowser": null,
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\downloads",
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "injectDocumentDomain": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts",
+    "fixturesFolder": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "justInTimeCompile": true,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 63259,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "22.13.1",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "133",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "133.0.6943.143"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Firefox",
+        "family": "firefox",
+        "majorVersion": "135",
+        "name": "firefox",
+        "path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "version": "135.0.1"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "134",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "134.0.3124.51"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 130,
+        "name": "electron",
+        "path": "",
+        "version": "130.0.6723.137"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\Eman Mahmoud\\AppData\\Local\\Cypress\\Cache\\14.1.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "14.1.0",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "14.1.0",
+  "endedTestsAt": "2025-03-10T22:08:46.125Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "mochawesome",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 7,
+        "passes": 7,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-10T22:08:15.038Z",
+        "end": "2025-03-10T22:08:23.466Z",
+        "duration": 8428,
+        "testsRegistered": 7,
+        "passPercent": 100,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/Eman Mahmoud/Documents/cypress-cucumber-ts/cypress/e2e/features/auth.feature",
+        "fileExtension": ".feature",
+        "fileName": "auth",
+        "name": "auth.feature",
+        "relative": "cypress\\e2e\\features\\auth.feature"
+      },
+      "stats": {
+        "duration": 8431,
+        "endedAt": "2025-03-10T22:08:23.464Z",
+        "failures": 0,
+        "passes": 7,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-10T22:08:15.033Z",
+        "suites": 1,
+        "tests": 7
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2760,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that users can successfully log in with valid credentials"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1168,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that the system displays an error message with invalid credentials"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 867,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that locked out users cannot access the system"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 847,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that user redirected to products page after successful login"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1151,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that user with no permission can't add items to the cart"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1366,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that user can log out successfully"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 237,
+          "state": "passed",
+          "title": [
+            "Login and Logout",
+            "Verify that user can't access any page without login"
+          ]
+        }
+      ],
+      "video": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\videos\\auth.feature.mp4"
+    },
+    {
+      "error": null,
+      "reporter": "mochawesome",
+      "reporterStats": {
+        "suites": 3,
+        "tests": 8,
+        "passes": 8,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-10T22:08:27.014Z",
+        "end": "2025-03-10T22:08:38.064Z",
+        "duration": 11050,
+        "testsRegistered": 8,
+        "passPercent": 100,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/Eman Mahmoud/Documents/cypress-cucumber-ts/cypress/e2e/features/cartCheckout.feature",
+        "fileExtension": ".feature",
+        "fileName": "cartCheckout",
+        "name": "cartCheckout.feature",
+        "relative": "cypress\\e2e\\features\\cartCheckout.feature"
+      },
+      "stats": {
+        "duration": 11054,
+        "endedAt": "2025-03-10T22:08:38.062Z",
+        "failures": 0,
+        "passes": 8,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-10T22:08:27.008Z",
+        "suites": 3,
+        "tests": 8
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1507,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Shopping cart and Checkout functionality",
+            "Verify that user can add items to the cart"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1249,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Shopping cart and Checkout functionality",
+            "Verify that user can remove items from the cart"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2003,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Shopping cart and Checkout functionality",
+            "Verify that user can checkout successfully"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1093,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Shopping cart and Checkout functionality",
+            "Verify that user can't checkout without adding items to the cart"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 166,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Shopping cart and Checkout functionality",
+            "Verify that user can't checkout without login"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1626,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Edge Cases",
+            "Verify that checkout form requires first name"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1754,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Edge Cases",
+            "Verify that checkout form requires last name"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 1618,
+          "state": "passed",
+          "title": [
+            "Shopping cart and Checkout process",
+            "Edge Cases",
+            "Verify that checkout form requires zip code"
+          ]
+        }
+      ],
+      "video": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\videos\\cartCheckout.feature.mp4"
+    },
+    {
+      "error": null,
+      "reporter": "mochawesome",
+      "reporterStats": {
+        "suites": 2,
+        "tests": 2,
+        "passes": 2,
+        "pending": 0,
+        "failures": 0,
+        "start": "2025-03-10T22:08:41.767Z",
+        "end": "2025-03-10T22:08:46.128Z",
+        "duration": 4361,
+        "testsRegistered": 2,
+        "passPercent": 100,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/Eman Mahmoud/Documents/cypress-cucumber-ts/cypress/e2e/features/stateManagement.feature",
+        "fileExtension": ".feature",
+        "fileName": "stateManagement",
+        "name": "stateManagement.feature",
+        "relative": "cypress\\e2e\\features\\stateManagement.feature"
+      },
+      "stats": {
+        "duration": 4364,
+        "endedAt": "2025-03-10T22:08:46.125Z",
+        "failures": 0,
+        "passes": 2,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2025-03-10T22:08:41.761Z",
+        "suites": 2,
+        "tests": 2
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2234,
+          "state": "passed",
+          "title": [
+            "State Management",
+            "Cart State Management",
+            "Verify that cart remembers items when refreshing the page"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2116,
+          "state": "passed",
+          "title": [
+            "State Management",
+            "Cart State Management",
+            "Verify cart empties after order completes"
+          ]
+        }
+      ],
+      "video": "C:\\Users\\Eman Mahmoud\\Documents\\cypress-cucumber-ts\\cypress\\videos\\stateManagement.feature.mp4"
+    }
+  ],
+  "startedTestsAt": "2025-03-10T22:08:15.033Z",
+  "totalDuration": 23849,
+  "totalFailed": 0,
+  "totalPassed": 17,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 6,
+  "totalTests": 17
+}
